@@ -34,15 +34,24 @@ html(lang="en")
                 // Begin Subsection
                 h2 BITS Pilani 
                 h3 B.E. (Hons.) Computer Science
-                h4 Aug 2018 | Pilani, India
+                h4 Expected Aug 2018 | Pilani, India
                 // Space between two subsections
                 //br
                 // Begin Subsection
-                p.lead Cum. GPA: 9.27/10 
+                p.lead Cum. GPA: 9.27 / 10 
                 br
                 // Begin Subsection
-                h2 Mother's International School
+                h2 AISSCE (CLASS XII)
+                h3 Mother's International School
                 h4 Grad. May 2014 | New Delhi, India
+                p.lead Score: 478 / 500
+
+                br
+
+                h2 AISSE (CLASS X)
+                h3 Mother's International School
+                h4 Grad. May 2012 | New Delhi, India
+                p.lead GPA: 10 / 10
                 ///////// Begin Section: Links /////////
                 h1 Links
                 // List follows
@@ -53,16 +62,9 @@ html(lang="en")
                 ///////// Begin Section: Coursework /////////
                 h1 Coursework
                 // Begin Subsection
-                h2 Graduate
-                - for (var i = 0; i < graduateCourses.length; i++)
-                    p= graduateCourses[i]
-                
-                // Begin Subsection
                 h2 Undergraduate
                 - for (var i = 0; i < undergradCourses.length; i++)
                     p= undergradCourses[i]
-                    - if (i == 4)
-                        p.italic.bold (Research Asst. & Teaching Asst 2x)
 
                 ///////// Begin Section: Skills /////////
                 h1 Skills
@@ -70,7 +72,7 @@ html(lang="en")
                 h2 Programming
                 // Use no-overlap if inline list overlaps with any element
                 // above it
-                h4.no-overlap Over 5000 lines
+                h4.no-overlap Over 2000 lines
                 // Note: Use span with li elements so the bullets can be closer
                 //       than the browser default value. Refer:
                 //       http://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li
@@ -86,6 +88,15 @@ html(lang="en")
                     - for (var i = 0; i < languagesFamiliar.length; i++)
                         li
                             span= languagesFamiliar[i]
+
+                br
+
+                h2 Data Analytics
+                ul.inline
+                    - for (var i = 0; i < dataAnalytics.length; i++)
+                        li
+                            span= dataAnalytics[i]
+
             ////////////////////////
             /// Left Column ends ///
             ////////////////////////
