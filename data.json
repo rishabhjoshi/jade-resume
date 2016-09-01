@@ -1,9 +1,8 @@
 {
-    "firstName": "Debarghya",
-    "lastName": "Das",
-    "languagesStrong": ["Java", "Shell", "Python", "Javascript",
-                        "OCaml", "Matlab", "Rails", "LaTeX"],
-    "languagesFamiliar": ["AS3", "iOS", "Android", "MySQL"],
+    "firstName": "Rishabh",
+    "lastName": "Joshi",
+    "languagesStrong": ["C++", "C099", "Python",],
+    "languagesFamiliar": ["R", "MySQL"],
     "graduateCourses": ["Advanced Machine Learning",
                         "Open Source Software Engineering",
                         "Advanced Computer Graphics",
