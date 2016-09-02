@@ -168,7 +168,8 @@ a {
   float: right;
   width: 64%;
   text-align: left;
-  padding: 0; }
+  padding: 0;
+  margin-bottom: 30px;}
   .right-column h2 {
     font-family: "Lato"; }
     .right-column h2 span {
