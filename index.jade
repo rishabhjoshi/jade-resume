@@ -17,12 +17,12 @@ html(lang="en")
     body
         #update-status
             p.
-                Last updated on September 1, 2016
+                Last updated on August 9, 2016
         // Things above the horizontal rule
         .heading
             h1 #[span #{firstName}] #{lastName}
             h3 #[a(href="#") rishabhjoshi.github.io] | #[a(href="#") fb.com/rishabh.joshi.047]
-            h3 #[a(href="#") +91-9828621109 | f2014102@pilani.bits-pilani.ac.in]
+            h3 #[a(href="#") +91-982-862-1109 | f2014102@pilani.bits-pilani.ac.in]
         hr
         .content
             ////////////////////////
@@ -72,7 +72,7 @@ html(lang="en")
                 h2 Programming
                 // Use no-overlap if inline list overlaps with any element
                 // above it
-                h4.no-overlap Over 2000 lines
+                h4.no-overlap Over 3000 lines
                 // Note: Use span with li elements so the bullets can be closer
                 //       than the browser default value. Refer:
                 //       http://stackoverflow.com/questions/4373046/css-control-space-between-bullet-and-li
@@ -106,60 +106,55 @@ html(lang="en")
                 ///////// Begin Section: Experience /////////
                 h1 Experience
                 // Begin Subsection
-                h2 Facebook | #[span Software Engineer]
-                h3 Jan 2015 - Present | New York, NY
-                // Space between subsections, in case if they are too close
-                br
-                // Begin Subsection
-                h2 Coursera | #[span KPCB Fellow + Software Engineering Intern]
-                h3 June 2014 - Sep 2014 | Mountain View, CA
+                h2 ISRO | #[span Summer Research Intern]
+                h3 May 2016 - July 2016 | Dehradun, India
                 ul
-                    li 52 out of 2500 applicants chosen to be a #[a(href="#") KPCB] Fellow 2014
-                    li Led and shipped Yoda - the admin interface for the new Phoenix platform
-                    li. 
-                        Full-stack developer - Wrote and reviewed code for JS
-                        using Backbone, Jade, Stylus and Require and Scala using Play
+                    li Developed the DataCube for Uttrakhand using GeoSpatial Technologies for IIRS, ISRO 
+                    li Determined best GIS image storage formats for storing GBs of image data
+
+                    li Preprocessing of data to convert raw satellite signals to usable products
+                    li.
+                        Modeled the core API and Execution engines of the DataCube
+                        Created algorithm templates to obtain products from Satellite data on the web portal
+
+                        
                 // Begin Subsection
-                h2 Google | #[span Software Engineering Intern]
-                h3 May 2013 - Aug 2013 | Mountain View, CA
-                ul
-                    li.
-                        Worked on the YouTube Captions team, in Javascript and Python to plan
-                        design and develop the full stack to add and edit Automatic Speech
-                        Recognition captions. In Production.
-                    li.
-                        Created a backbone.js-like framework for the Captions editor.
                 // Begin Subsection
-                h2 Phabricator | #[span Open Source Contributor & Team Leader]
-                h3 Jan 2013 - May 2013 | Palo Alto, CA & Ithaca, NY
-                ul
-                    li.
-                        Phabricator is used daily by Facebook, Dropbox, Quora, Asana
-                        and more
-                    li.
-                        I created the Meme Generator and more in PHP and Shell
-                    li.
-                        Led a team from MIT, Cornell, IC London and UHelsinki for the
-                        project
                 ///////// Begin Section: Research /////////
-                h1 Research
+                h1 Projects 
                 // Begin Subsection
-                h2 Cornell Robot Learning Lab | #[span Researcher]
-                h3 Jan 2014 - Jan 2015 | Ithaca, NY
+                h2 BITS LifeGuard | #[span Oct 2015 - Present]
+                h3 Guide: Dr. Rahul Banerjee | H.O.D. Computer Science Engineering, BITS Pilani
                 p.
-                    Worked with #[a(href="#") Ashesh Jain] and #[a(href="#") Prof Ashutosh Saxena] to create PlanIt,
-                    a tool which learns from large scale preference feedback to plan
-                    robot trajectories in human environments
+                    Research Assistant - Devoloping a fault-tolerant,
+                    cost-effective smart 
+                    driver safety jacket with real time monitoring of 
+                    vital signs, to prevent road accidents and taking
+                    emergency action in the unlikely case an accident 
+                    occurs.
+
                 br
                 // Begin Subsection
-                h2 Cornell Phonetics Lab | #[span Head Undergraduate Researcher]
-                h3 May 2012 - May 2013 | Ithace, NY
+                h2 Wearables sensor fusion | #[span August 2016 - Present]
+                h3 Study Project | Mentor: Dr. Rahul Banerjee
                 p.
-                    Led the development of QuickTongue, the first ever breakthrough
-                    tongue-controlled game with Prof Sam Tilsen to aid in Linguistics
-                    research
+                    Working on Adaptive learning aspects of Body Sensor
+                    Networks and sensor data fusion. Finding and 
+                    implementing accurate Sensor Fusion algorithms based on
+                    ANNs, SVM and fuzzy logic techniques and measuring the
+                    accuracy of the same on real-time driving data.
+                
+                br
+                // Begin Subsection
+                h2 e-Yantra | #[span 18th March 2016 - 19th March 2016]
+                h3 IIT-Bombay | MHRD, Govt. of India 
+                p.
+                    Came 2<sup> nd</sup> out of 57 teams from all over
+                    India in the finals of e-Yantra, a robotics 
+                    competition organized by IIT Bombay.
+
                 ///////// Begin Section: Awards /////////
-                h1 Awards
+                h1 Achievements 
                 table(cellspacing="0", cellpadding="0")
                     tbody
                         - for (var i = 0; i < table.length; i++)
@@ -167,7 +162,7 @@ html(lang="en")
                                 - for (var j = 0; j < table[i].length; j++)
                                     td!= table[i][j]
                 ///////// Begin Section: Publications /////////
-                h1 Publications
+//                h1 Publications
                 ol.publications-list
                     li.
                         #[a(href="#") A. Jain], #[a(href="#") D.Das] and #[a(href="#") A.Saxena]. Planit: A crowdsourcing approach
