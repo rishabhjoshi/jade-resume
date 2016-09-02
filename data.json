@@ -2,7 +2,7 @@
     "firstName": "Rishabh",
     "lastName": "Joshi",
     "languagesStrong": ["C++", "C099", "Python"],
-    "languagesFamiliar": ["x86 Assemblr", "Prolog", "R", "MySQL", 
+    "languagesFamiliar": ["x86 Assembler", "Prolog", "R", "MySQL", 
                           "Java", "C#", "OpenGL"],
     "dataAnalytics": ["scikit-learn", "GraphLab"],
     "undergradCourses": ["Information Retrieval",
@@ -15,10 +15,11 @@
     "links": [["Facebook", "url", "rishabh.joshi.047"],
               ["GitHub", "url", "rishabhjoshi"],
               ["LinkedIn", "url", "rishabh-joshi-887351b2"]],
-    "table": [["2014", "Top 52/2500", "KPCB Engineering Fellow"],
-              ["2014", "1 <sup>st</sup>/50", "Microsoft Coding Competition, Cornell"],
-              ["2013", "National", "Jump Trading Challenge Finalist"],
-              ["2013", "7 <sup>th</sup>/120", "CS 3410 Cache Race Bot Tournament"],
-              ["2012", "2 <sup>nd</sup>/150", "CS 3110 Biannual Intra-Class Bot Tournament"],
-              ["2012", "National", "Indian National Mathematics Olympiad(INMO) Finalist"]]
+    "table": [["2016", "National finalist in Microsoft's Build The Shield CTF Competition"],
+              ["2014/15", "Recipient of Institute Merit Scholarship for academic excellence"],
+              ["2014", "1574 - AIR (All India Rank), IIT-JEE Examinaion"],
+              ["2014", "Recipient of Government of India's INSPIRE scholarship (top 1% overall in CBSE Board Examinations)"],
+              ["2014", "Board Topper in Chemistry in Board Examination (top 0.1%)"],
+              ["2014", "School Topper in Computer Science in Board Examination"],
+              ["2012", "Junior Science Talent Search (JSTS) Scholar"]]
 }
