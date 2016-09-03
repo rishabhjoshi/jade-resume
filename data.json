@@ -1,7 +1,7 @@
 {
     "firstName": "Rishabh",
     "lastName": "Joshi",
-    "languagesStrong": ["C++", "C099", "Python"],
+    "languagesStrong": ["C", "C++", "Python"],
     "languagesFamiliar": ["x86 Assembler", "Prolog", "R", "MySQL", 
                           "Java", "C#", "OpenGL"],
     "dataAnalytics": ["scikit-learn", "GraphLab"],
