@@ -1,5 +1,7 @@
 # jade-resume
 
+Disclaimer - Template is by Debhargya Das. Jade convertion from latex by Ankit Sultana.
+
 ### [Sample Resume](https://ankitsultana.me/jade-resume/deedy-resume.pdf)
 
 ### [Web Link](https://ankitsultana.me/jade-resume)
